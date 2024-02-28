@@ -21,7 +21,7 @@ public class TC_06_DataSourcesDB extends BaseClass {
 		snowflakepage.enterDataBaseName();
 		snowflakepage.enterUserName();
 		snowflakepage.enterPassword();
-		snowflakepage.hitTestBtn(driver);
+		snowflakepage.hitTestBtn();
 		
 		
 		

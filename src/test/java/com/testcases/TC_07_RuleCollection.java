@@ -23,7 +23,7 @@ public class TC_07_RuleCollection extends BaseClass {
 		Rpage.enterDataBaseName();
 		Rpage.enterUserName();
 		Rpage.enterPassword();
-		Rpage.hitTestBtn(driver);	
+		Rpage.hitTestBtn();
 		Rpage.hitRuleCollection();
 		Rpage.hitCreateNewRule();
 		Rpage.enterRuleName();

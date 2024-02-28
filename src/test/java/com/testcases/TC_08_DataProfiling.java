@@ -23,7 +23,7 @@ public class TC_08_DataProfiling extends BaseClass {
 		DPpage.enterDataBaseName();
 		DPpage.enterUserName();
 		DPpage.enterPassword();
-		DPpage.hitTestBtn(driver);
+		DPpage.hitTestBtn();
 		DPpage.clkDataProfiling();
 	//	DPpage.selectDB1();
 		DPpage.selectReport();

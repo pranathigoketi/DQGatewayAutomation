@@ -122,7 +122,7 @@ public class DataProfilingPage extends BaseClass {
 	static WebElement testbtn;
 
 	@SuppressWarnings("static-access")
-	public void hitTestBtn(WebDriver driver) {
+	public void hitTestBtn() {
 
 		utillfunnctions.ClickElement(driver, testbtn);
 		try {

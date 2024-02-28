@@ -1,23 +1,17 @@
 package com.base;
 
+import com.pagefactory.LoginPage;
+import com.pagefactory.PopupPage;
+import com.utilities.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-
-import com.pagefactory.LoginPage;
-import com.pagefactory.PopupPage;
-import com.pagefactory.RuleCollectionPage;
-import com.utilities.*;
-import com.utilities.PropertyFile;
-import com.utilities.CreateLog;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	public static WebDriver driver;

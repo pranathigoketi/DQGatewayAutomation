@@ -23,7 +23,7 @@ public class TC_09_DQRules extends BaseClass {
 		Drpage.enterDataBaseName();
 		Drpage.enterUserName();
 		Drpage.enterPassword();
-		Drpage.hitTestBtn(driver);
+		Drpage.hitTestBtn();
 		Drpage.hitDqrules();
 		Drpage.createRuleBtn();
 		Drpage.sourceDataBase();
